@@ -8,7 +8,7 @@ class TestCreatePublisherUseCase:
         mock_repository = create_autospec(PublisherRepository)
         use_case= CreatePublisherUseCase(repository=mock_repository)
         request = CreatePublisherInput(
-            name="Test Publisher", 
+            name="Test Publisher",
             description="Test Description")
         response= use_case.execute(request)
         assert response.id is not None
