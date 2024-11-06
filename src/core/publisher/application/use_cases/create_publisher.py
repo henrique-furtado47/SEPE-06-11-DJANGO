@@ -1,7 +1,7 @@
 from dataclasses import dataclass
 from uuid import UUID
-from src.core.publisher.domain.interfaces import PublisherRepository
-from src.core.publisher.domain.entities import Publisher
+from core.publisher.domain.interfaces import PublisherRepository
+from core.publisher.domain.entities import Publisher
 
 @dataclass
 class CreatePublisherInput:

@@ -1,4 +1,4 @@
-from src.core.publisher.domain.entities import Publisher
+from core.publisher.domain.entities import Publisher
 
 class TestCreatePublisher:
     def test_create_valid_publisher(self):

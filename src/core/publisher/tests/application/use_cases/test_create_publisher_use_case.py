@@ -1,6 +1,6 @@
 from unittest.mock import create_autospec
-from src.core.publisher.domain.interfaces import PublisherRepository
-from src.core.publisher.application.use_cases.create_publisher import CreatePublisherUseCase, CreatePublisherInput, CreatePublisherOutput
+from core.publisher.domain.interfaces import PublisherRepository
+from core.publisher.application.use_cases.create_publisher import CreatePublisherUseCase, CreatePublisherInput, CreatePublisherOutput
 
 #AAA - Arrange - Act - Assert
 class TestCreatePublisherUseCase:
