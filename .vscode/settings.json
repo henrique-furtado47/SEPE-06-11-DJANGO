@@ -1,0 +1,7 @@
+{
+  "python.analysis.extraPaths": ["src", "./src"],
+  "python.testing.pytestArgs": ["src"],
+  "pylint.path": ["python", "-m", "pylint"],
+  "python.testing.unittestEnabled": false,
+  "python.testing.pytestEnabled": true
+}
